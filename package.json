@@ -12,7 +12,9 @@
     "start": "node .output/server/index.mjs",
     "start:generate": "npx serve .output/public",
     "lint": "eslint .",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "deps:check": "pnpx taze",
+    "deps:update": "pnpx taze -I"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:dev",
