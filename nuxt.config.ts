@@ -9,6 +9,8 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
     '@nuxt/eslint',
+    '@nuxtjs/storybook',
+    '@nuxtjs/i18n',
   ],
 
   devtools: {
@@ -73,5 +75,18 @@ export default defineNuxtConfig({
     },
   },
 
+  i18n: {
+    locales: [
+      { code: 'en', name: 'English', language: 'en-GB' },
+
+    ],
+    defaultLocale: 'en',
+    strategy: 'no_prefix',
+  },
+
   pwa,
+
+  storybook: {
+    port: 6006,
+  },
 })

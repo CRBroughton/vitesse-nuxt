@@ -41,5 +41,17 @@
   ],
   "interline-translate.knownPopularWordCount": 6000,
   "iconify.annotations": true,
-  "iconify.inplace": true
+  "iconify.inplace": true,
+
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".npmrc,.stackblitzrc,netlify.toml,pnpm-lock.yaml,pnpm-workspace.yaml",
+    "nuxt.config.ts": ".gitignore,tsconfig.json,uno.config.ts,eslint.config.js,Dockerfile"
+
+  },
+  "i18n-ally.localesPaths": [
+    "i18n",
+    "i18n/locales"
+  ]
 }

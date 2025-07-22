@@ -1,5 +1,7 @@
 packages: []
 catalogs:
+  ally:
+    '@nuxtjs/i18n': 10.0.1
   build:
     '@nuxt/devtools': ^2.6.2
     '@nuxt/eslint': ^1.5.2
@@ -27,6 +29,13 @@ catalogs:
   icons:
     '@iconify-json/carbon': ^1.2.10
     '@iconify-json/twemoji': ^1.2.2
+  storybook:
+    '@nuxtjs/storybook': ^8.4.1
+    '@storybook/addon-a11y': ^9.0.13
+    '@storybook/addon-docs': ^9.0.13
+    '@storybook/addon-vitest': ^9.0.13
+    eslint-plugin-storybook: ^9.0.13
+    storybook: ^9.0.13
 onlyBuiltDependencies:
   - '@parcel/watcher'
   - esbuild
