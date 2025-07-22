@@ -7,6 +7,14 @@ export default antfu(
     unocss: true,
     formatters: true,
     pnpm: true,
+    rules: {
+      'no-console': 'error',
+      'no-restricted-syntax': [
+        'error',
+        'TSEnumDeclaration',
+        'Decorator',
+      ],
+    },
   },
 )
   .append(nuxt())
