@@ -10,7 +10,7 @@ const emit = defineEmits<{
     @click="(event) => emit('click', event)"
   >
     <p class="text-white">
-      <slot />
+      {{ $t('welcome') }}
     </p>
   </button>
 </template>

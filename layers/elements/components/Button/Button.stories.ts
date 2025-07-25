@@ -4,9 +4,6 @@ import Button from './Button.vue'
 const meta = {
   title: 'Components/Button',
   component: Button,
-  args: {
-    default: 'Login',
-  },
 } satisfies Meta<typeof Button>
 export default meta
 type Story = StoryObj<typeof meta>
