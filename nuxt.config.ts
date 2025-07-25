@@ -1,3 +1,4 @@
+import checker from 'vite-plugin-checker'
 import { pwa } from './app/config/pwa'
 import { appDescription } from './app/constants/index'
 
@@ -64,6 +65,11 @@ export default defineNuxtConfig({
       routes: ['/'],
       ignore: ['/hi'],
     },
+  },
+  // required for Storybook
+  // https://github.com/nuxt-modules/storybook/issues/835
+  vite: {
+    plugins: [checker({ vueTsc: true })],
   },
 
   typescript: {
