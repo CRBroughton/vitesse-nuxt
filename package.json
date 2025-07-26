@@ -17,6 +17,9 @@
     "deps:check": "pnpx taze",
     "deps:update": "pnpx taze -I"
   },
+  "dependencies": {
+    "posthog-js": "catalog:posthog"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:dev",
     "@iconify-json/carbon": "catalog:icons",
