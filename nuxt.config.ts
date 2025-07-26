@@ -1,6 +1,7 @@
 import checker from 'vite-plugin-checker'
 import { pwa } from './app/config/pwa'
 import { appDescription } from './app/constants/index'
+import { validatePosthogConfig } from './hooks'
 
 export default defineNuxtConfig({
   modules: [
@@ -39,7 +40,14 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
-
+  runtimeConfig: {
+    public: {
+      posthogEnabled: false,
+      posthogPublicKey: '',
+      posthogApiHost: '',
+      posthogDefaults: '2025-05-24',
+    },
+  },
   future: {
     compatibilityVersion: 4,
   },
@@ -77,6 +85,11 @@ export default defineNuxtConfig({
     strict: true,
   },
 
+  hooks: {
+    ready: () => {
+      validatePosthogConfig()
+    },
+  },
   eslint: {
     config: {
       standalone: false,

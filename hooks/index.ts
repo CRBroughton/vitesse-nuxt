@@ -1,0 +1,1 @@
+export { validatePosthogConfig } from './posthog'
