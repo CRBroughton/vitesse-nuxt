@@ -67,6 +67,10 @@ catalogs:
     '@iconify-json/twemoji':
       specifier: ^1.2.2
       version: 1.2.2
+  posthog:
+    posthog-js:
+      specifier: ^1.258.2
+      version: 1.258.2
   storybook:
     '@nuxtjs/storybook':
       specifier: ^8.4.1
@@ -99,7 +103,7 @@ importers:
   .:
     dependencies:
       posthog-js:
-        specifier: ^1.258.2
+        specifier: catalog:posthog
         version: 1.258.2
     devDependencies:
       '@antfu/eslint-config':
@@ -6628,8 +6632,8 @@ packages:
   vue-component-type-helpers@2.2.12:
     resolution: {integrity: sha512-YbGqHZ5/eW4SnkPNR44mKVc6ZKQoRs/Rux1sxC6rdwXb4qpbOSYfDr9DsTHolOTGmIKgM9j141mZbBeg05R1pw==}
 
-  vue-component-type-helpers@3.0.4:
-    resolution: {integrity: sha512-WtR3kPk8vqKYfCK/HGyT47lK/T3FaVyWxaCNuosaHYE8h9/k0lYRZ/PI/+T/z2wP+uuNKmL6z30rOcBboOu/YA==}
+  vue-component-type-helpers@3.0.5:
+    resolution: {integrity: sha512-uoNZaJ+a1/zppa/Vgmi8zIOP2PHXDN2rT8NyF+zQRK6ZG94lNB9prcV0GdLJbY9i9lrD47JOVIH92SaiA7oJ1A==}
 
   vue-devtools-stub@0.1.0:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
@@ -9330,7 +9334,7 @@ snapshots:
       storybook: 9.0.18(prettier@3.5.2)
       type-fest: 2.19.0
       vue: 3.5.17(typescript@5.8.3)
-      vue-component-type-helpers: 3.0.4
+      vue-component-type-helpers: 3.0.5
 
   '@stylistic/eslint-plugin@5.1.0(eslint@9.31.0(jiti@2.4.2))':
     dependencies:
@@ -14626,7 +14630,7 @@ snapshots:
 
   vue-component-type-helpers@2.2.12: {}
 
-  vue-component-type-helpers@3.0.4: {}
+  vue-component-type-helpers@3.0.5: {}
 
   vue-devtools-stub@0.1.0: {}
 
