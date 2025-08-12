@@ -48,9 +48,6 @@ export default defineNuxtConfig({
       posthogDefaults: '2025-05-24',
     },
   },
-  future: {
-    compatibilityVersion: 4,
-  },
 
   experimental: {
     // when using generate, payload js assets included in sw precache manifest
