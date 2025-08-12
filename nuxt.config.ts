@@ -57,7 +57,7 @@ export default defineNuxtConfig({
     typedPages: true,
   },
 
-  compatibilityDate: '2024-08-14',
+  compatibilityDate: '2025-08-12',
 
   nitro: {
     esbuild: {
