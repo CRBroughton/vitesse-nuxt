@@ -5,40 +5,40 @@ catalogs:
     '@nuxtjs/i18n': 10.0.1
   build:
     '@nuxt/devtools': ^2.6.2
-    '@nuxt/eslint': ^1.5.2
-    '@nuxt/kit': ^4.0.0
+    '@nuxt/eslint': ^1.8.0
+    '@nuxt/kit': ^4.0.3
     '@nuxtjs/color-mode': ^3.5.2
-    '@pinia/nuxt': ^0.11.1
-    '@unocss/eslint-config': ^66.3.3
-    '@unocss/nuxt': ^66.3.3
+    '@pinia/nuxt': ^0.11.2
+    '@unocss/eslint-config': ^66.4.2
+    '@unocss/nuxt': ^66.4.2
     '@vite-pwa/nuxt': ^1.0.4
-    '@vueuse/nuxt': ^13.5.0
-    nuxt: ^4.0.0
-    unocss: ^66.3.3
+    '@vueuse/nuxt': ^13.6.0
+    nuxt: ^4.0.3
+    unocss: ^66.4.2
     unplugin: ^2.3.5
-    vite: ^7.0.4
+    vite: ^7.1.2
   dev:
-    '@antfu/eslint-config': ^4.17.0
-    eslint: ^9.31.0
+    '@antfu/eslint-config': ^4.19.0
+    eslint: ^9.33.0
     eslint-plugin-format: ^1.0.1
-    typescript: ^5.8.3
-    vue-tsc: ^3.0.1
+    typescript: ^5.9.2
+    vue-tsc: ^3.0.5
   frontend:
-    '@vueuse/core': ^13.5.0
+    '@vueuse/core': ^13.6.0
     pinia: ^3.0.3
-    vue: ^3.5.17
+    vue: ^3.5.18
   icons:
-    '@iconify-json/carbon': ^1.2.10
-    '@iconify-json/twemoji': ^1.2.2
+    '@iconify-json/carbon': ^1.2.13
+    '@iconify-json/twemoji': ^1.2.4
   posthog:
-    posthog-js: ^1.258.2
+    posthog-js: ^1.260.1
   storybook:
     '@nuxtjs/storybook': ^8.4.1
-    '@storybook/addon-a11y': ^9.0.13
-    '@storybook/addon-docs': ^9.0.13
-    '@storybook/addon-vitest': ^9.0.13
-    eslint-plugin-storybook: ^9.0.13
-    storybook: ^9.0.13
+    '@storybook/addon-a11y': ^9.1.2
+    '@storybook/addon-docs': ^9.1.2
+    '@storybook/addon-vitest': ^9.1.2
+    eslint-plugin-storybook: ^9.1.2
+    storybook: ^9.1.2
 
 onlyBuiltDependencies:
   - '@parcel/watcher'
