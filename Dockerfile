@@ -15,7 +15,7 @@ FROM node:20-alpine AS production-stage
 
 WORKDIR /app
 
-COPY --from=build-stage /app/.output ./.output
+COPY --from=build-stage /app/apps/main/.output ./.output
 
 EXPOSE 3000
 
