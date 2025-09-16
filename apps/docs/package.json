@@ -1,0 +1,12 @@
+{
+  "name": "docs",
+  "scripts": {
+    "dev": "nuxt dev --extends docus",
+    "build": "nuxt build --extends docus"
+  },
+  "dependencies": {
+    "docus": "catalog:docs",
+    "better-sqlite3": "catalog:docs",
+    "nuxt": "catalog:build"
+  }
+}

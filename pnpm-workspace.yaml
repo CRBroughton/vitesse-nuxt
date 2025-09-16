@@ -1,4 +1,6 @@
-packages: []
+packages:
+  - apps/*
+  - packages/*
 
 catalogs:
   ally:
@@ -39,9 +41,16 @@ catalogs:
     '@storybook/addon-vitest': ^9.1.2
     eslint-plugin-storybook: ^9.1.2
     storybook: ^9.1.2
+  docs:
+    better-sqlite3: ^12.2.0
+    docus: latest
 
 onlyBuiltDependencies:
   - '@parcel/watcher'
+  - '@tailwindcss/oxide'
+  - better-sqlite3
   - core-js
   - esbuild
+  - sharp
   - unrs-resolver
+  - vue-demi
