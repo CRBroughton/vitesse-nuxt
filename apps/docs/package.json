@@ -5,8 +5,12 @@
     "build": "nuxt build --extends docus"
   },
   "dependencies": {
-    "docus": "catalog:docs",
     "better-sqlite3": "catalog:docs",
+    "docus": "catalog:docs",
     "nuxt": "catalog:build"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:dev",
+    "eslint": "catalog:dev"
   }
 }
