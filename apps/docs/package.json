@@ -2,7 +2,8 @@
   "name": "docs",
   "scripts": {
     "dev": "nuxt dev --extends docus",
-    "build": "nuxt build --extends docus"
+    "build": "nuxt build --extends docus",
+    "lint": "eslint . --fix"
   },
   "dependencies": {
     "better-sqlite3": "catalog:docs",

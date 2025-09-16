@@ -23,6 +23,7 @@ const opinionatedRules = {
     'TSEnumDeclaration',
     'Decorator',
   ],
+  'format/prettier': 'off',
 } satisfies Partial<Linter.RulesRecord & Rules>
 
 export default antfu(
