@@ -3,14 +3,7 @@ import typography from '@tailwindcss/typography'
 
 export default {
   content: [
-    './components/**/*.{js,vue,ts}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
-    './layers/**/*.{js,vue,ts}',
-    './app/**/*.{js,vue,ts}',
-    './app.vue',
-    './error.vue',
+    './app/**/*.{vue,ts}',
     './.storybook/**/*.{js,ts}',
     './**/*.stories.{js,ts}',
   ],
