@@ -28,7 +28,6 @@ const opinionatedRules = {
 
 export default antfu(
   {
-    unocss: true,
     formatters: true,
     pnpm: true,
     rules: {

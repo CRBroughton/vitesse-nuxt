@@ -6,7 +6,7 @@ const emit = defineEmits<{
 
 <template>
   <button
-    class="px-3 py-2 rounded-lg bg-emerald"
+    class="px-3 py-2 rounded-lg bg-emerald-500"
     @click="(event) => emit('click', event)"
   >
     <p class="text-white">

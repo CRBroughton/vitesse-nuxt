@@ -6,7 +6,8 @@ import { validatePosthogConfig } from './hooks'
 export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
-    '@unocss/nuxt',
+    '@nuxtjs/tailwindcss',
+    '@nuxt/icon',
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
@@ -36,7 +37,6 @@ export default defineNuxtConfig({
       ],
     },
   },
-
   colorMode: {
     classSuffix: '',
   },
