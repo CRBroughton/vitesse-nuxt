@@ -35,6 +35,7 @@
     "@storybook/addon-a11y": "catalog:storybook",
     "@storybook/addon-docs": "catalog:storybook",
     "@tailwindcss/typography": "catalog:build",
+    "@unocss/eslint-plugin": "catalog:dev",
     "@vite-pwa/nuxt": "catalog:build",
     "@vitejs/plugin-vue": "catalog:dev",
     "@vueuse/core": "catalog:frontend",

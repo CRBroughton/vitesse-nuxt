@@ -22,6 +22,7 @@ catalogs:
     '@antfu/eslint-config': ^4.17.0
     eslint: ^9.31.0
     eslint-plugin-format: ^1.0.1
+    "@unocss/eslint-plugin": "^66.5.1"
     typescript: ^5.9.2
     vue-tsc: ^3.0.5
     vitest: ^3.2.4
