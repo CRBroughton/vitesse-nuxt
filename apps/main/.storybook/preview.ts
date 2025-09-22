@@ -1,4 +1,4 @@
-import type { Preview } from '@storybook-vue/nuxt'
+import type { Preview } from '@storybook/vue3'
 
 const preview: Preview = {
   parameters: {
@@ -8,7 +8,46 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+    backgrounds: {
+      default: 'light',
+      values: [
+        {
+          name: 'light',
+          value: '#ffffff',
+        },
+        {
+          name: 'dark',
+          value: '#1a1a1a',
+        },
+      ],
+    },
+    viewport: {
+      viewports: {
+        mobile: {
+          name: 'Mobile',
+          styles: {
+            width: '375px',
+            height: '667px',
+          },
+        },
+        tablet: {
+          name: 'Tablet',
+          styles: {
+            width: '768px',
+            height: '1024px',
+          },
+        },
+        desktop: {
+          name: 'Desktop',
+          styles: {
+            width: '1024px',
+            height: '768px',
+          },
+        },
+      },
+    },
   },
+
 }
 
 export default preview
